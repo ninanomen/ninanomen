@@ -27,24 +27,9 @@ const Layout = ({ children }) => {
 
   return (
     <>
-    <div
-      style={{
-        display: `grid`,
-        gridTemplateRows: `auto 1fr auto`,
-        gridTemplateColumns: `100%`,
-        height: `100vh`,
-      }}
-    >
+    <div className="wrapper">
       <Header siteTitle={data.site.siteMetadata.title} />
-        <div
-          style={{
-            margin: `0 auto`,
-            maxWidth: 1200,
-            padding: `0 1.0875rem 1.45rem`,
-          }}
-        >
-          <main>{children}</main>
-        </div>
+      <main>{children}</main>
       <Footer email={data.site.siteMetadata.email}></Footer>
     </div>
     </>
