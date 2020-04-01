@@ -12,12 +12,10 @@
 }
 @media (min-width: 1024px) {
     .me {
-        font-size: 30px;
         margin-top: 10rem;
         margin-left: 3rem;
     }
     .description {
-        font-size: 25px;
         margin-left: 3rem;
     }
 }
