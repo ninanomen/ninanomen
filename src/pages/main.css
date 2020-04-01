@@ -1,10 +1,23 @@
-.description {
-    font-size: 40px;
+.me {
+    font-size: 40px
 }
 
+.description {
+    font-size: 30px;
+}
+@media (max-width: 768px) {
+    .me {
+        font-size: 30px;
+    }
+}
 @media (min-width: 1024px) {
-    .description {
+    .me {
+        font-size: 30px;
         margin-top: 10rem;
+        margin-left: 3rem;
+    }
+    .description {
+        font-size: 25px;
         margin-left: 3rem;
     }
 }

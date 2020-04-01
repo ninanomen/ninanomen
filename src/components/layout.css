@@ -205,7 +205,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  background-color: #F7F0E2;
+  background-color: #ff5f5f;
   color: #010027;
   font-family: 'Raleway', sans-serif;
   font-weight: normal;
@@ -464,16 +464,13 @@ pre tt:after {
   content: "";
 }
 main {
-  max-width: 1200px;
-  padding: 0 1.0875rem 1.45rem;
+  padding: 0 7rem;
 }
 header {
-  max-width: 1200px;
-  padding: 2.45rem 1.0875rem;
+  padding: 2.45rem 7rem;
 }
 footer {
-  max-width: 1200px;
-  padding: 2.45rem 1.0875rem;
+  padding: 2.45rem 7rem;
   display: flex;
   justify-content: space-between;
 }
@@ -482,6 +479,17 @@ footer {
   grid-template-rows: auto 1fr auto;
   grid-template-columns: 100%;
   height: 100vh;
+}
+@media (max-width: 768px) {
+  main {
+    padding: 0 2rem;
+  }
+  header {
+    padding: 2rem;
+  }
+  footer {
+    padding: 2rem;
+  }
 }
 @media (min-width: 1024px) {
   header {

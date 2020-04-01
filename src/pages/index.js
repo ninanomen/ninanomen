@@ -7,11 +7,12 @@ import "./main.css"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Front-end developer" />
+    <p className="me">Hi, I'm Nina Nomen 🙋‍</p>
     <p className="description">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation sullamco laboris nisi ut aliquip ex ea commodo consequat.
-      </p>
+      UI designer and front-end developer based in Barcelona. CSS enthusiast and JavaScript lover. Clean code 👩‍💻, beautiful design 🎨 and web performance 🚀.
+      I like to build projects that grant some value.
+    </p>
   </Layout>
 )
 
