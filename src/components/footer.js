@@ -5,7 +5,6 @@ const Footer = ({ email }) => (
   <footer>
         <a href="mailto:nina.nomen1@gmail.com"
         style={{
-            color: `#010027`,
             fontSize: `18px`,
             textDecoration: `none`
         }}>

@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import DarkModeToggle from './DarkModeToggle';
 
 const Header = ({ siteTitle }) => (
   <header>
@@ -8,7 +9,6 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/"
           style={{
-            color: `#010027`,
             textDecoration: `none`,
             textTransform: `uppercase`,
           }}
@@ -16,6 +16,7 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+      <DarkModeToggle />
   </header>
 )
 
