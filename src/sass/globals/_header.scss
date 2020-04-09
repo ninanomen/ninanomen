@@ -1,15 +1,15 @@
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 2.45rem 7rem;
+    a {
+        color: var(--link-color);
+    }
 }
 
 @media (max-width: 768px) {
     header {
         padding: 2rem;
-    }
-}
-
-@media (min-width: 1024px) {
-    header {
-        margin-bottom: 1.45rem;
     }
 }

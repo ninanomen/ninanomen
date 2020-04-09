@@ -1,7 +1,14 @@
 footer {
-    padding: 2.45rem 7rem;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 2.45rem 7rem;
+    a {
+        color: var(--font-color);
+    }
+    svg {
+        fill: var(--font-color);
+    }
 }
 
 @media (max-width: 768px) {
