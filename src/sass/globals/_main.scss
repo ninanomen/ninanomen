@@ -1,0 +1,28 @@
+main {
+    padding: 0 7rem;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-rows: auto 1far auto;
+    grid-template-columns: 100%;
+    height: 100vh;
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 0 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    main {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    html {
+        font-size: 100%;
+    }
+}

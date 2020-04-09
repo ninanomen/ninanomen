@@ -1,0 +1,11 @@
+footer {
+    padding: 2.45rem 7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    footer {
+        padding: 2rem;
+    }
+}
